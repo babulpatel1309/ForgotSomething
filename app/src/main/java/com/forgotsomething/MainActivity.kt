@@ -10,7 +10,7 @@ import com.forgotsomething.Beans.ForgotDetail
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.custom_details_to_remind_dialog.view.*
 
-class MainActivity : BaseActivity() {
+open class MainActivity : BaseActivity() {
 
     lateinit var adapter: KotlinAdapter
     lateinit var allSchedules: ArrayList<ForgotDetail>
