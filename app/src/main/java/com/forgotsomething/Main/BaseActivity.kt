@@ -1,4 +1,4 @@
-package com.forgotsomething
+package com.forgotsomething.Main
 
 import android.content.Context
 import android.os.Bundle
